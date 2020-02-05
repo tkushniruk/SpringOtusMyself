@@ -1,18 +1,12 @@
 package com.example.demo;
 
-import com.example.demo.domain.Person;
-import com.example.demo.service.PersonServiceImpl;
-import com.example.demo.service.QuestionarryServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
-
-import java.util.Scanner;
 
 @SpringBootApplication
 public class DemoApplication {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         ConfigurableApplicationContext context = SpringApplication.run(DemoApplication.class, args);
         PersonServiceImpl personService = context.getBean(PersonServiceImpl.class);
@@ -37,6 +31,10 @@ public class DemoApplication {
         Scanner sc = new Scanner(System.in);
         System.out.println("Your surname?");
         return sc.nextLine();
+    }*/
+
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }
